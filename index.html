@@ -5,13 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <h2 id="Important">
+       <button id="Mode">Light Mode</button></h1>
     <h1>Odin Recipes</h1>
-    <ul>
-     <li><a href="recipes/lasagna.html">First recipe</a></li>
-     <li><a href="recipes/steak.html">Second recipe</a></li>
-     <li><a href="recipes/icecream.html">Third recipe</a></li>
+    <ul class="recipes" data-hover="If you want to eat yummy lasagna, click me">
+     <li class="recipes"data-hover="If you want to eat yummy lasagna, click me" ><a class="button lasagna" href="recipes/lasagna.html">
+        First recipe</a>
+    </li>
+     <li class="recipes" data-hover="If you want to eat yummy steak, click me"><a class="button steak" href="recipes/steak.html">
+        Second recipe</a></li>
+     <li class=" recipes" data-hover="If you want to eat yummy ice cream, click me"><a class="button icecream" href="recipes/icecream.html">
+        Third recipe</a></li>
     </ul>
+    
 </body>
 </html>
