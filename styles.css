@@ -59,10 +59,10 @@ li.recipes {
   width: 180px;
   color: white;
   margin: 10px;
-  background-color: red;
+  background-color: #1ed14b;
   border-radius: 25vh;
   text-align: center;
-  box-shadow: 10px 5px 5px red;
+  box-shadow: 10px 5px 5px #003008;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -88,8 +88,8 @@ a.button span {
 }
 
 li.recipes:hover{
-    background-color: blue;
-    box-shadow: 10px 5px 5px pink;;
+    background-color: #043959;
+    box-shadow: 10px 5px 5px #4f94d4
 }
 li.recipes:hover a {
     visibility: visible;
@@ -100,5 +100,5 @@ li.recipes:hover a {
 li.recipes:hover:after{
     padding-right: 50px;
     content: attr(data-hover);
-    visibility: visible;
+    margin-left: 45px;
 }
